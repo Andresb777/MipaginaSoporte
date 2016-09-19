@@ -1,0 +1,319 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+a:link {
+	color: #ffffff;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #7c9efc;
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+i{
+	color: #CCCCCC;
+}
+
+body
+{
+
+	font: 12px Tahoma, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: url(images/bg.gif);
+}
+
+#main
+{
+margin: 0 auto;
+width: 999px;
+background: #373737 url(images/main.gif) repeat-y center;
+border-right: 9px solid #ffffff;
+border-left: 9px solid #ffffff;
+}
+
+#header
+{
+width: 746px;
+margin: 0 auto;
+height: 301px;
+background: url(images/header.jpg) no-repeat center top;
+}
+
+#logo
+{
+padding-left: 40px;
+text-align: left;
+padding-top: 120px;
+
+}
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+#logo H2 a
+{
+font-size: 10px;
+}
+
+#buttons
+{
+height: 62px;
+margin: 0 auto;
+background: url(images/menu.gif) repeat-x top;
+padding-left: 180px;
+border-bottom: 10px solid #373737;
+}
+
+#buttons ul {
+    padding-left: 10px;
+    margin: 0px;      
+}
+
+#buttons li {
+	display: inline;		
+}
+
+#buttons a {
+	display: block;
+	float: left;
+	width: 115px;
+	height: 27px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 20px;
+	margin-right: 5px;
+}
+
+#buttons a:hover {
+	width: 115px;
+	color:#7c9efc;
+	background:url(images/menu_hover.gif) repeat-x top;
+	height: 42px;
+}
+
+#content
+{
+width: 746px;
+float:right;
+border-top: 1px solid #373737;
+}
+
+#content_bg{
+	margin-bottom: 5px;
+}
+
+#centercon
+{
+width: 483px;
+margin-left: 7px;
+background:url(images/centerbg.gif) repeat-y center;
+border-top: 7px solid #373737;
+}
+
+#text{
+	padding: 12px;
+	padding-top: 0px;
+}
+
+#text .small
+{
+margin-top: 10px;
+}
+
+#centercon H3
+{
+width:413px;
+color: #293759;
+font-size: 14px;
+padding-top: 10px;
+padding-left: 10px;
+background: url(images/h1bg.png) no-repeat center bottom; 
+font-weight:bold;
+margin-bottom: 10px;
+}
+
+#centercon a
+{
+ color: #ffffff;
+}
+
+#centercon a:hover{
+	text-decoration: none;
+	color: #7c9efc;
+}
+
+#centercon a:visited {
+	color: #ffffff;
+}
+
+#centertop{
+	background:url(images/centertop.gif) no-repeat center;
+	height: 15px;
+}
+
+#centerbot{
+	background:url(images/centerbot.gif) no-repeat bottom;
+	height: 31px;
+	clear:both;
+}
+
+#right
+{
+width: 249px;
+float:right;
+background: url(images/rightbg.gif) repeat-y top left;
+}
+
+#righttop{
+	height: 14px;
+	background:url(images/righttop.gif) no-repeat left top;
+}
+
+#right ul{
+	list-style: none;
+	padding-left: 20px;
+	padding-bottom: 3px;
+	padding-top: 6px;
+	margin: 0px;
+	display:block;	
+}
+
+#right ul li{
+	margin-bottom: 10px;
+	padding-left: 5px;	
+	background:url(images/list_style.gif) no-repeat left;
+}
+
+#right h2 {
+	margin: 0;
+	background: url(images/h2.png) no-repeat;
+	font-size: 12px;
+	color: #7c9efc;
+	padding-left: 25px;
+	margin-left: 15px;
+	padding-top:4px;
+}
+
+#right a:link {
+	text-decoration: none;
+}
+
+#right a:hover {
+	text-decoration: underline;
+}
+#right a:visited {
+		text-decoration: none;
+}
+
+#right li a {
+	padding-left: 10px;
+}
+
+#left{
+width: 253px;
+background: url(images/leftbg.gif) repeat-y top left;
+}
+
+#left ul{
+	list-style: none;
+	padding-left: 20px;
+	padding-bottom: 3px;
+	padding-top: 6px;
+	margin: 0px;
+	display:block;	
+}
+
+#left ul li{
+	margin-bottom: 10px;
+	padding-left: 5px;	
+	background:url(images/list_style.gif) no-repeat left;
+}
+
+#archives{
+	background: #000000;
+}
+
+#left h2 {
+	margin: 0;
+	background: url(images/h2.png) no-repeat;
+	font-size: 12px;
+	color: #7c9efc;
+	padding-left: 25px;
+	margin-left: 15px;
+	padding-top:4px;
+}
+
+.h2bg{
+	background:url(images/h2bg.png) no-repeat center bottom;	
+}
+
+#left a:link {
+	text-decoration: none;
+}
+
+#left a:hover {
+	text-decoration: underline;
+}
+#left a:visited {
+		text-decoration: none;
+}
+
+#left li a {
+	padding-left: 10px;
+}
+
+#lefttop{
+	height: 14px;
+	background:url(images/lefttop.gif) no-repeat left top;
+}
+
+#lefttop2{
+	height: 14px;
+	background:url(images/lefttop2.gif) no-repeat left top;
+}
+
+#footer{
+	font-size: 10px;
+	color: #ffffff;
+	padding-top: 5px;
+	text-align: center;
+	clear:both;
+	border: 1px solid #000000;
+	padding-bottom: 5px;
+	background: #373737;
+}
+
+#footer a{
+color: #ffffff;
+font-size: 10px;
+text-decoration: none;
+}
+
+.padding{
+padding: 10px;
+color:#FF0000;
+font-weight: bold;
+}
